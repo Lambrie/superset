@@ -52,7 +52,7 @@ env_py3
 envpy3
 env36
 local_config.py
-/superset_config.py
+# /superset_config.py
 /superset_text.yml
 superset.egg-info/
 superset/bin/supersetc
@@ -110,3 +110,10 @@ messages.mo
 docker/requirements-local.txt
 
 cache/
+
+.ipynb_checkpoints
+catboost_info
+.venv/
+__init__.py
+__pycache__/
+/secrets.txt
